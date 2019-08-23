@@ -17,3 +17,6 @@ Pre-Commit hook that prepends JIRA ticket number and URL in the commit message.
 - [x] **prepend-jira-link** - Adds [JIRA](https://www.atlassian.com/software/jira) ticket number and link to commit message.
     - If JIRA ticket ID is not present in commit message, it will check the branch name, if it contains a ticket id.
     - If found will append it to the commit message.
+### Example
+
+```JIRA: [MT-740](skaafrica.atlassian.net/browse/MT-740)```
