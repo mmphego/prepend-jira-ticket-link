@@ -5,7 +5,7 @@ Pre-Commit hook that prepends JIRA ticket number and URL in the commit message.
 ## Adding to your `.pre-commit-config.yaml`
 
 ```yaml
--   repo: https://github.com/mmphego/pygrep-hooks
+-   repo: https://github.com/mmphego/prepend-jira-ticket-link
     rev: master
     hooks:
     -   id: prepend-jira-link
