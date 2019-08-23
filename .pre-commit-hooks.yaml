@@ -1,6 +1,6 @@
 -   id: prepend-jira-link
     name: Jira Ticket Link Prepender
-    desc: Appends ticket number and link below commit message
+    description: Appends ticket number and link below commit message
     entry: prepender-jira-link.sh
     language: script
     files: ''
